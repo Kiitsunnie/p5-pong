@@ -134,12 +134,12 @@ function calculaChanceDeErrar() {
   if (pontosOponente >= meusPontos) {
     chanceDeErrar += 1
     if (chanceDeErrar >= 39){
-    chanceDeErrar = 25
+    chanceDeErrar = 30
     }
   } else {
     chanceDeErrar -= 1
     if (chanceDeErrar <= 35){
-    chanceDeErrar = 20
+    chanceDeErrar = 30
     }
   }
 }
